@@ -21,10 +21,15 @@ img {
   margin: 0 auto;
 }
 
+/* スキル紹介 */
+
 header{
   padding-top: 100px;
 }
 
+.header h1{
+  font-size: 50px;
+}
 
 .header-menu{
   display:flex;
@@ -131,8 +136,7 @@ header{
   display: flex;
   width: 100%;
   margin: 0 auto;
-  background-color: rgba(0,0,0,0.4);
-  color: white;
+  color: black;
   font-size: 15px;
   padding: 20px;
   border-radius: 15px;
@@ -149,6 +153,7 @@ header{
 .skill img{
   width: 100%;
   cursor: pointer;
+  border: 1px solid #c9c9c9;
 }
 .skill img:hover{
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);

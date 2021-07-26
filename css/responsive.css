@@ -5,8 +5,8 @@
   }
 
   .header-left h1{
-    font-size: 24px;
-    letter-spacing: 2px;
+    font-size: 40px;
+    letter-spacing: 10px;
     padding-left: 10px;
     padding-top: 10px;
   }
@@ -48,6 +48,11 @@
     width: 90%;
   }
 
+  .main-logo{
+  font-size: 40px;
+  padding: 50px 0 30px 0;
+  }
+
   .top-wrapper{
     text-align: center;
     padding-top: 40px;
@@ -70,6 +75,7 @@
   .skill-content{
     width: 100%;
     padding-top: 50px;
+    display: flex;
   }
 
   .skill-text{
