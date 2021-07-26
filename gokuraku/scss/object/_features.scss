@@ -1,0 +1,68 @@
+.features {
+  padding-top: 80px;
+
+  .inner {
+  
+  }
+
+  .features-cont {
+  }
+
+  .features-list {
+    padding-top: 60px;
+
+  }
+
+
+  .features-item {
+    color: cl(white);
+    display: flex;
+    &:nth-child(odd) {
+      flex-flow: row-reverse;
+      .image {
+        margin-right: 40px;
+      }
+      .text{
+        margin-right: 40px;
+      }
+    }
+    &:nth-child(even){
+      .image {
+        margin-left: 40px;
+      }
+      .text {
+        margin-left: 40px;
+      }
+    }
+
+    .text {
+      flex:1;
+      padding-top: 40px;
+    }
+
+    .title {
+      color: cl(baige);
+      font-size: 28px;
+    }
+
+     .desc {
+        font-size: 18px;
+        margin-top: 50px;
+     }
+
+    
+    .image {
+      flex: 1;
+
+    }
+
+  }
+
+   .cmn-link {
+     padding: 50px 0 50px 0;
+    a {
+      margin: 0 auto;
+   } 
+  }
+
+}

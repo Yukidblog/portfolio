@@ -1,0 +1,20 @@
+.top {
+  background-image: url(../image/top-bg.png);
+  background-position: center;
+  background-size: cover;
+  height: 675px;
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
+  .top-title {
+    color: cl(white);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+
+    }
+
+}

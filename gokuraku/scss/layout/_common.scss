@@ -1,0 +1,37 @@
+.cmn-section {
+  &.-black {
+    background-color: cl(black);
+  }
+}
+
+.cmn-title {
+  text-align: center;
+  color: cl(white);
+  font-size: 32px;
+  display: block;
+  .sub {
+    color: cl(white);
+    font-size: 20px;
+    @include TimesNewRoman
+    display: block;
+    text-transform: capitalize;
+    &.-faq{
+      text-transform: uppercase;
+    }
+  }
+
+}
+
+.cmn-link {
+  a {
+    color: cl(white);
+    background-color: cl(gold);
+    display: flex;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,28 @@
+.faq {
+  padding-top: 80px;
+  .faq-cont{
+
+  }
+
+  .faq-item {
+    max-width: 900px;
+    margin: 0 auto;
+
+        > a {
+      background-color: cl(white);
+      display: block;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      border-bottom: 1px solid #E5E5E5;
+      .title {
+
+      }
+    }
+    .detail {
+      padding:25px;
+      background-color: cl(lightgrey);
+
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.header {
+  background-color:cl(primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 2;
+
+
+
+  .header-fixed {
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .header-logo{
+    width: 150px;
+    margin-left: 30px;
+  
+    }
+  .nav-list{
+    display: flex;
+    margin-right: 40px;
+
+    .item{
+      + .item {
+        margin-left: 30px;
+      }
+    a {
+      color: cl(white);
+      font-size: 18px;
+    }
+    }
+  }
+
+}
