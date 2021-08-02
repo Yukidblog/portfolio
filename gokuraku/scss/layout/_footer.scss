@@ -11,9 +11,11 @@
 
   .nav-list {
     padding-top: 30px;
+    text-align: center;
+    @include overTab{
     display: flex;
     justify-content: center;
-
+  }
   }
   .nav-item {
     +.nav-item {
