@@ -1,0 +1,224 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Helvetica Neue', Bold;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header{
+  background-color: #FFFFFF;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  opacity: 1;
+}
+
+.header-logo{
+  width: 179px;
+  height: 40px;
+  margin: 20px;
+
+}
+
+.nav-list{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  }
+
+.nav-list .item +.item {
+    margin-left: 30px;
+  }
+
+.top{
+  background-image: url(../image/top.png);
+  background-position: center;
+  background-size: cover;
+  height: 551px;
+  position: relative;
+}
+
+.top-title{
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 40%;
+  left: 45%;
+  font-size: 36px;
+}
+
+.sub-title{
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  top: 73%;
+  left: 49%;
+  font-size: 16px;
+}
+
+
+.cmn-title {
+  font-size: 40px;
+  text-align: center;
+  margin: 60px 0;
+}
+
+.challenge-cont{
+  padding-top: 40px;
+}
+
+
+.challenge-list{
+  margin: 0 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.challenge-item{
+  width: 100%;
+  box-shadow: 0px 3px 6px #00000029;
+
+}
+
+.challenge-item:nth-child(n+2){
+  margin-left: 20px;
+}
+
+.challenge-image {
+
+}
+
+.challenge-item-text{
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.challenge-item-text p{
+
+  font-size: 16px;
+  text-align: left;
+}
+
+.challenge-item-box{
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+}
+
+.challenge-btn{
+  margin-top: 45px;
+  text-align: center;
+}
+
+.challenge-btn a{
+box-shadow: 0px 3px 6px #00000029;
+width: 305px;
+font-size: 18px;
+border: 1px solid #EEEEEE;
+display: inline-block;
+padding-top:10px;
+padding-bottom: 10px;
+border-radius: 5px;
+}
+
+.contact{
+  margin-top: 60px;
+  background-image: url(../image/footer.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 60px;
+  padding-bottom: ;
+}
+
+.contact-title{
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-text p{
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 2;
+  font-size: 16px;
+}
+
+.contact-btn {
+  text-align: center;
+  margin-top: 32px;
+  padding-bottom: 30px;
+}
+
+.contact-btn a{
+  background-color: #83032A;
+  color: #fff;
+  font-size: 16px;
+  width: 210px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.footer{
+  background-color:#333333 ;
+  padding: 30px auto;
+}
+
+.footer p{
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+/*レスポンシブ対応*/
+
+/* PCサイズ（1280px,1980px~）
+タブレットサイズ（768px,1024px）
+SPサイズ（375px,414px）
+ */
+
+ @media screen and (max-width:768px){
+
+
+
+  .challenge-cont{
+    width: 100%;
+    justify-content: center;
+
+  }
+
+  .challenge-list{
+    display: block;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 30px;
+    
+  }
+
+  .challenge-item{
+    margin-top: 30px;
+  }
+  
+
+
+}
