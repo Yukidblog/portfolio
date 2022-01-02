@@ -1,0 +1,14 @@
+The following files failed to download during site export. Please check them in the designer assets view (images) or dashboard (fonts).
+
+images/city-p-1080x720.jpeg
+images/city-p-130x130q80.jpeg
+images/city-p-1600x1067.jpeg
+images/city-p-500x334.jpeg
+images/city-p-800x534.jpeg
+images/ocean-p-130x130q80.jpeg
+images/ocean-p-1600x1200.jpeg
+images/town-p-1080x722.jpeg
+images/town-p-130x130q80.jpeg
+images/town-p-1600x1070.jpeg
+images/town-p-500x335.jpeg
+images/town-p-800x535.jpeg
