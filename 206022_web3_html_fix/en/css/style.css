@@ -24,6 +24,7 @@ html {
 body {
   background: #fff;
   color: #231815 !important;
+   word-break: keep-all !important;	
   margin: 0;
   counter-reset: number 0;
 }
