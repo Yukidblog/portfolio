@@ -267,16 +267,19 @@ li.gnav-list-item.lang a {
 }
 @media (max-width: 979px) {
   .about__txt {
-    margin: auto;
-  }
+    margin: auto;}
+  .about__img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
 }
 
 
 @media (max-width: 577px) {
   .about__img {
     width: 64.79%;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     min-width: auto;
     width: 80%;
   }
