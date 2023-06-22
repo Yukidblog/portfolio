@@ -264,10 +264,13 @@ li.gnav-list-item.lang a {
 .about__txt {
   text-align: left;
   font-weight: 600;
+  padding-left: 1.5%;
 }
 @media (max-width: 979px) {
   .about__txt {
-    margin: auto;}
+    margin: auto;
+    padding-left:0.5%;
+  }
   .about__img{
     margin-top: 10px;
     margin-bottom: 10px;
