@@ -743,7 +743,7 @@ li.gnav-list-item.lang a {
 @media (max-width: 470px) {
     .dx__img-text {
         font-size: 1.6rem;
-        right: 15px;
+        right: 8px;
     }
 }
 
