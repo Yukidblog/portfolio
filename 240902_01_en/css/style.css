@@ -717,7 +717,7 @@ li.gnav-list-item.lang a {
 @media (max-width: 980px) {
     .dx__img-text {
         right:0;
-        font-size: 2.0rem;
+        font-size: 2.2rem;
     }
 }
 @media (max-width: 760px) {
@@ -740,7 +740,7 @@ li.gnav-list-item.lang a {
 @media (max-width: 470px) {
     .dx__img-text {
         font-size: 1.6rem;
-        right: 8px;
+        right: 25px;
     }
 }
 
