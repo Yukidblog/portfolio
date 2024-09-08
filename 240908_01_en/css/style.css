@@ -884,8 +884,13 @@ h2.web3__section-title02 {
     word-wrap: break-word;
   }
   @media (max-width: 979px) {
+    .news__title {
+        word-break: break-word; /* 単語が長すぎる場合に途中で改行 */
+        hyphens: auto;
+    }
     .news__title02 {
         word-break: break-all; /* 単語が長すぎる場合に途中で改行 */
+        hyphens: auto;
     }
   }
   
