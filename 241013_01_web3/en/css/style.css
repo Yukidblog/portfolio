@@ -672,7 +672,7 @@ li.gnav-list-item.lang a {
 ----------------------------------------*/
 .about {
     margin-top: 40px;
-    text-align: left;
+    text-align: center;
 }
 
 .about__img {
@@ -687,7 +687,7 @@ li.gnav-list-item.lang a {
     min-width: 400px;
     width: 50%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 @media (max-width: 577px) {
@@ -713,8 +713,8 @@ li.gnav-list-item.lang a {
     font-weight: bold;
     margin-top: 32px;
     margin-bottom: 24px;
-    /* padding-left: 50px;
-    padding-right: 50px; */
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .about__title-web3 {
