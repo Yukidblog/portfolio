@@ -1,0 +1,7 @@
+<svg width="50" height="50" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="arrow">
+    <circle id="en" cx="40" cy="40" r="39.5" fill="white" stroke="#4C4948"/>
+    <path id="Vector 56" d="M44.5 31.5L52.5 39.5L44.5 47.5" stroke="#4C4948"/>
+    <path id="Vector 57" d="M35 31.5L27 39.5L35 47.5" stroke="#4C4948"/>
+  </g>
+</svg>
