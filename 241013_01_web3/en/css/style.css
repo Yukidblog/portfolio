@@ -672,15 +672,17 @@ li.gnav-list-item.lang a {
 ----------------------------------------*/
 .about {
     margin-top: 40px;
-    text-align: center;
+    text-align: left;
 }
 
 .about__img {
     width: 64.79%;
-    max-width: 1003px;
+    max-width: 503px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top:90px;
+    margin-bottom:70px;
     width: 29.79%;
     min-width: 400px;
     width: 50%;
@@ -695,8 +697,8 @@ li.gnav-list-item.lang a {
 
     .about__img {
         width: 64.79%;
-        /*margin-top: 70px;
-    margin-bottom: 70px;*/
+        margin-top: 0px;
+        margin-bottom: 0px;
         min-width: auto;
         width: 80%;
     }
@@ -707,12 +709,12 @@ li.gnav-list-item.lang a {
 }
 
 .about__title {
-    font-size: 4.5rem;
+    font-size: 3.0rem;
     font-weight: bold;
     margin-top: 32px;
     margin-bottom: 24px;
-    padding-left: 50px;
-    padding-right: 50px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
 }
 
 .about__title-web3 {
