@@ -709,12 +709,12 @@ li.gnav-list-item.lang a {
 }
 
 .about__title {
-    font-size: 4.5rem;
+    font-size: 4.0rem;
     font-weight: bold;
     margin-top: 32px;
     margin-bottom: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     line-height: 120%;
 }
 
