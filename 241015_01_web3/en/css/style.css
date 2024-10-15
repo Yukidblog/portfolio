@@ -712,7 +712,7 @@ li.gnav-list-item.lang a {
     font-size: 3.0rem;
     font-weight: bold;
     margin-top: 32px;
-    margin-bottom: 24px;
+    margin-bottom: 0px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -720,7 +720,7 @@ li.gnav-list-item.lang a {
 .about__title-web3 {
     font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 24px;
+    margin-bottom: 0px;
 }
 
 .about__txt {
@@ -1425,12 +1425,12 @@ h2.web3__section-title02 {
         text-align: left;
         padding-left: 0px;
         padding-right: 0px;
-        margin: 0 auto 12px;
+        margin: 0 auto 0px;
     }
 
     .about__title-web3 {
         font-size: min(5vw, 2.4rem);
-        margin: 0 auto 12px;
+        margin: 0 auto 0px;
     }
 
     .about__txt {
