@@ -6,13 +6,13 @@
     },
     c = {
       add: function () {
-        a(".slider").length &&
+        /*a(".slider").length &&
           a(".slider").each(function () {
             d.slider(this);
-          }),
-          a('a[href^="#"]').on("click", function (a) {
-            d.pageScr(a);
-          }),
+          }),*/
+        a('a[href^="#"]').on("click", function (a) {
+          d.pageScr(a);
+        }),
           a(".hamburger").on("click", function () {
             d.hamburger(this);
           }),
@@ -22,6 +22,7 @@
               d.menuClose();
             }),
           d.headerSpace(),
+          d.scrollSideNav(), // 20251001追加
           a(".matchHeight").length && d.mh(),
           a(".object-fit").length && d.of(),
           a(".footer-sitemap-main-item")
@@ -91,8 +92,26 @@
         d.toggleClass("is-open"),
           d.next(".footer-sitemap-main-accordion").stop().slideToggle(300);
       },
+      /*---202501001追加---*/
+      scrollSideNav: function () {
+        var sideNav = a(".side-nav");
+        var triggerPoint = 300;
+
+        function toggleNav() {
+          var scrollTop = a(window).scrollTop();
+          if (scrollTop > triggerPoint) {
+            sideNav.addClass("is-visible");
+          } else {
+            sideNav.removeClass("is-visible");
+          }
+        }
+
+        a(window).on("scroll", toggleNav);
+        toggleNav(); // 初期判定を即実行
+      },
     };
   a(window).on("load", function () {
-    b();
+    window.scrollTo(0, 0); // ←202501001追加 スクロール位置をトップにリセット
+    b(); // ← 初期化関数呼び出し
   });
 })(jQuery);
