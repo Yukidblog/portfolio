@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  const NEWS_URL = '/news/index.html';
+  const NEWS_URL = 'news/index.html';
   const list = document.querySelector('.top_news__list');
   const categoryButtons = document.querySelectorAll('.category');
 
