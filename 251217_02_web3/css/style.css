@@ -926,6 +926,10 @@ li.gnav-list-item.lang a {
   position: relative;
 }
 
+.concept.anchor {
+  padding-top: 30px;
+}
+
 .concept__title {
   position: relative;
   margin-bottom: 10px;
@@ -1659,7 +1663,7 @@ h2.concept__section-title02 {
   }
 
   .concept {
-    margin-top: 60px;
+    margin-top: 0px;
   }
   .concept__title {
     margin-bottom: 50px;
