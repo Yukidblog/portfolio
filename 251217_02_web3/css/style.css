@@ -38,7 +38,7 @@ body {
 }
 @media (max-width: 979px) {
 body {
-  padding-top: 75px!important;
+  padding-top: px!important;
 }
 }
 
@@ -731,7 +731,7 @@ li.gnav-list-item.lang a {
     grid-row: 1;
     grid-column: 2;
     padding: 4px 10px;
-    font-size: 12px;
+    font-size: 1.4rem;
     text-align: left;
     align-self: start;
     width: fit-content;
@@ -772,7 +772,7 @@ li.gnav-list-item.lang a {
   
   .works__tag {
     display: inline-block;
-    font-size: 12px;
+    font-size: 1.4rem;
     padding: 4px 5px;
     margin-top: 0px;
     margin-right: 5px;
@@ -793,6 +793,7 @@ li.gnav-list-item.lang a {
   .works__tag + .works__tag {
     margin-left: 0px;
     top: 55px;
+    margin-top: 5px;
     left: calc(30% + 10px);
   }
   
@@ -804,12 +805,12 @@ li.gnav-list-item.lang a {
     margin: 5px 0 8px;
     color: #00b6cb;
     line-height: 1.4;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: bold;
   }
   
   .works__text {
-    font-size: 13px;
+    font-size: 1.4rem;
     line-height: 1.5;
     margin-bottom: 5px;
     color: #333;
@@ -824,8 +825,11 @@ li.gnav-list-item.lang a {
   
   .works__link a {
     color: #00b6cb;
-    font-size: 13px;
+    font-size: 1.4rem;
   }
+  .to_works-p {
+  margin-top:10px;
+}
 }
 
 /*カテゴリ背景色*/
@@ -912,6 +916,9 @@ li.gnav-list-item.lang a {
   .dx-text {
     width:100%;
   }
+  .dxContent__description{
+    line-height: 1.4;
+  }
 
   .dxContent__item {
     display:block;
@@ -925,7 +932,7 @@ li.gnav-list-item.lang a {
 @media (max-width: 470px) {
   .dx {
     margin-top: 25px;
-    padding-top: 50px;
+    padding-top: 20px;
   }
 }
 
@@ -971,7 +978,7 @@ li.gnav-list-item.lang a {
   }
 }
 .chart-text {
-  margin-top: 10px;   /* h3 の下余白を縮める */
+  margin-top: 20px;   /* h3 の下余白を縮める */
   line-height: 1.2;     /* 行間を詰める */
 }
 
@@ -1062,6 +1069,11 @@ h2.concept__section-title02 {
 }
 .dummy {
   width:32%;
+}
+@media (max-width: 767px) {
+.partner .title-base {
+  margin-bottom:20px;
+  }
 }
 
 /*----------------------------------------
@@ -1333,10 +1345,15 @@ h2.concept__section-title02 {
   border-left:5px solid #12b3c7;
   padding:2px 0 2px 10px;
 }
+
 .top_news__item {
   border-bottom: 0.5px solid #d6d6d6;
   padding-bottom: 10px;
   font-size: 16px;
+}
+.top_news__item:first-child {
+  border-top: 0.5px solid #d6d6d6;
+  padding-top: 10px;
 }
 .top_news__item a {
   margin:5px 0;
@@ -1536,12 +1553,13 @@ h2.concept__section-title02 {
   margin-top: 30px;
 }
 
+
 /*----------------------------------------
 	for sp
 ----------------------------------------*/
 @media (max-width: 979px) {
   body {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding-top: 64px;
   }
 
@@ -1580,7 +1598,7 @@ h2.concept__section-title02 {
 
 @media (max-width: 767px) {
   body {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     padding-top: 70px;
   }
 
@@ -1694,7 +1712,7 @@ h2.concept__section-title02 {
     margin-top: 0px;
   }
   .concept__title {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size:clamp(22px,calc(100vw / 27),30px);
   }
 
@@ -1717,12 +1735,25 @@ h2.concept__section-title02 {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+    gap: 10px;
   }
 
   .footer__item {
     margin-top: 20px;
   }
+  .footer_btn{
+    margin-top: 15px;
+  }
+  .footer_btn a {
+    margin: 5px;
+  }
+  .footer__logo {
+  margin-top: 40px;
 }
+  
+
+}
+
 
 @media (max-width: 979px) {
   .mv-img {
@@ -2270,15 +2301,11 @@ section.boxArea {
 /*新規制作分*/
 /*breadcrumb*/
 .breadcrumb_top {
-    border-bottom: 1px solid #d6d6d6;
-    display: block;
+/*     border-bottom: 1px solid #d6d6d6;
+ */    display: block;
     padding: 12px 20px;
     max-width:1200px;
     margin:0 auto;
-}
-.breadcrumb_top > * {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 @media screen and (min-width: 980px) {
   .breadcrumb_top {
@@ -2322,7 +2349,7 @@ section.boxArea {
 /* 768px〜979pxをスマホ版ヘッダーに統一 */
 @media (min-width: 768px) and (max-width: 979px) {
   body {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     padding-top: 70px;
   }
 
