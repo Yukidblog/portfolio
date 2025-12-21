@@ -2173,8 +2173,7 @@ section.boxArea {
     display: inline-block;
     position: fixed;
     z-index: 10001;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 27px;
     right: 20px;
   }
 }
