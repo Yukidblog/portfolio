@@ -2678,10 +2678,9 @@ section.boxArea {
     display: inline-block;
   }
 /* header-list 上部の余白を詰める */
-
-  .gnav-list .header-list {
+  .header .gnav {
     margin-top: -100px;
-  }  
+  }
 }
 
 
