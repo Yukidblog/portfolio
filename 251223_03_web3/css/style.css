@@ -739,7 +739,7 @@ li.gnav-list-item.lang a {
   display:flex;
   align-items:center;
   column-gap: 5px;
-  color:#1aa6ab;
+  color:#027e9b;
   width:110px;
   text-align:right;
 }
@@ -2677,5 +2677,12 @@ section.boxArea {
   .gnav-list .header-list a {
     display: inline-block;
   }
+/* header-list 上部の余白を詰める */
+
+  .gnav-list .header-list {
+    margin-top: -100px;
+  }  
 }
+
+
 
