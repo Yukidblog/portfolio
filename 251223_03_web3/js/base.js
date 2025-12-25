@@ -111,7 +111,18 @@
       },
     };
   a(window).on("load", function () {
-    window.scrollTo(0, 0); // ←202501001追加 スクロール位置をトップにリセット
-    b(); // ← 初期化関数呼び出し
+    // ハッシュがある場合は該当位置にスクロール、ない場合のみトップにリセット
+    if (window.location.hash) {
+      setTimeout(function() {
+        var target = a(window.location.hash);
+        if (target.length) {
+          var offsetTop = target.offset().top - 40;
+          window.scrollTo(0, offsetTop);
+        }
+      }, 100);
+    } else {
+      window.scrollTo(0, 0); // スクロール位置をトップにリセット
+    }
+    b(); // 初期化関数呼び出し
   });
 })(jQuery);
