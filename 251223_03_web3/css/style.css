@@ -993,8 +993,20 @@ li.gnav-list-item.lang a {
   position:absolute;
   width:100%;
   object-fit: contain;
-  top:70px;
+  top:-115px;
+  z-index: 0;
 }
+
+/* dxセクション直前のfooter_btnのみ前面に表示 */
+.footer_btn + #dx {
+  margin-top: 0;
+}
+
+body > .footer_btn:nth-last-child(3) {
+  position: relative;
+  z-index: 10;
+}
+
 .footer_btn + .title-base {
   margin-top:70px;
 }
@@ -1044,6 +1056,9 @@ li.gnav-list-item.lang a {
   .dx-text {
   width: 80%;
 }
+  .dx .dx-bg {
+    display: none;
+  }
   .dx-flex-image{
     width:20%;
   }
@@ -1666,6 +1681,9 @@ h2.concept__section-title02 {
 .footer_btn {
   text-align: center;
   margin-top: 30px;
+  position: relative;
+  z-index: 10; /* Bring it in front of the background */
+
 }
 
 .footer_btn a {
@@ -2682,6 +2700,3 @@ section.boxArea {
     margin-top: -100px;
   }
 }
-
-
-
